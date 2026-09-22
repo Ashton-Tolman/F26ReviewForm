@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             ExitButton = new Button();
+            DrawPictureBox = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)DrawPictureBox).BeginInit();
             SuspendLayout();
             // 
             // ExitButton
             // 
-            ExitButton.Location = new Point(679, 376);
+            ExitButton.Location = new Point(204, 343);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(109, 62);
             ExitButton.TabIndex = 0;
@@ -41,19 +43,30 @@
             ExitButton.UseVisualStyleBackColor = true;
             ExitButton.Click += ExitButton_Click;
             // 
+            // DrawPictureBox
+            // 
+            DrawPictureBox.Location = new Point(12, 12);
+            DrawPictureBox.Name = "DrawPictureBox";
+            DrawPictureBox.Size = new Size(297, 325);
+            DrawPictureBox.TabIndex = 1;
+            DrawPictureBox.TabStop = false;
+            // 
             // F26ReviewForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(325, 417);
+            Controls.Add(DrawPictureBox);
             Controls.Add(ExitButton);
             Name = "F26ReviewForm";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)DrawPictureBox).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button ExitButton;
+        private PictureBox DrawPictureBox;
     }
 }
