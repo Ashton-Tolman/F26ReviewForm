@@ -1,6 +1,6 @@
 ﻿namespace F26ReviewForm
 {
-    partial class Form1
+    partial class F26ReviewForm
     {
         /// <summary>
         ///  Required designer variable.

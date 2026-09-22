@@ -1,8 +1,8 @@
 namespace F26ReviewForm
 {
-    public partial class Form1 : Form
+    public partial class F26ReviewForm : Form
     {
-        public Form1()
+        public F26ReviewForm()
         {
             InitializeComponent();
         }
