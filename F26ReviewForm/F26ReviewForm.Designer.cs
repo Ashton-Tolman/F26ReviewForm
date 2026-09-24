@@ -50,6 +50,7 @@
             DrawPictureBox.Size = new Size(297, 325);
             DrawPictureBox.TabIndex = 1;
             DrawPictureBox.TabStop = false;
+            DrawPictureBox.Click += DrawPictureBox_Click;
             // 
             // F26ReviewForm
             // 
