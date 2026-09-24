@@ -35,7 +35,7 @@
             // 
             // ExitButton
             // 
-            ExitButton.Location = new Point(204, 343);
+            ExitButton.Location = new Point(496, 512);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(109, 62);
             ExitButton.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             DrawPictureBox.Location = new Point(12, 12);
             DrawPictureBox.Name = "DrawPictureBox";
-            DrawPictureBox.Size = new Size(297, 325);
+            DrawPictureBox.Size = new Size(593, 494);
             DrawPictureBox.TabIndex = 1;
             DrawPictureBox.TabStop = false;
             DrawPictureBox.Click += DrawPictureBox_Click;
@@ -56,7 +56,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(325, 417);
+            ClientSize = new Size(617, 586);
             Controls.Add(DrawPictureBox);
             Controls.Add(ExitButton);
             Name = "F26ReviewForm";
