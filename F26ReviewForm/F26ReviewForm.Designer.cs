@@ -60,7 +60,8 @@
             Controls.Add(DrawPictureBox);
             Controls.Add(ExitButton);
             Name = "F26ReviewForm";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Review";
             ((System.ComponentModel.ISupportInitialize)DrawPictureBox).EndInit();
             ResumeLayout(false);
         }
