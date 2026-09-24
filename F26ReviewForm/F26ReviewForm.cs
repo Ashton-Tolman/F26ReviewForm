@@ -7,6 +7,7 @@ namespace F26ReviewForm
             InitializeComponent();
         }
 
+
         int GetRandomFrom(int max, int min = 0)
         {
             Random randy = new Random();
@@ -29,7 +30,7 @@ namespace F26ReviewForm
             int radius = diameter/2;
             int size = 10;
             Graphics g = DrawPictureBox.CreateGraphics();
-            Pen thePen = new Pen(Color.Black,3);
+            Pen thePen = new Pen(Color.Black,GetRandomFrom(10,0));
 
 
             g.DrawLine(thePen, x - size, y, x + size, y); // Make the crosshair X plane
